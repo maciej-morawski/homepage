@@ -1,31 +1,46 @@
 body {
-    background-color: #ECF8F8;
+  background-color: #ecf8f8;
 }
 
 section {
-    background-color: #ECF8F8;
+  background-color: #ecf8f8;
 }
 
 h1 {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 
 h2 {
-    color: #1460AA;
+  color: #1460aa;
 }
 
-.special-header{
-    color:#9b140b;
+.special-header {
+  color: #9b140b;
 }
 #top {
-    background:#2E86AB;
+  background: #2e86ab;
 }
 
-a{
-    color:#43AA8B;
+a {
+  color: #43aa8b;
 }
 
 nav a {
-    color:#E53D00;
+  color: #e53d00;
+}
+.navigation {
+  background: #478a05;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: yellow;
+  color: #000;
 }
