@@ -14,7 +14,7 @@ h2 {
   color: #1460aa;
 }
 
-.special-header {
+.secondary-heading {
   color: #9b140b;
 }
 #top {
@@ -28,6 +28,7 @@ a {
 nav a {
   color: #e53d00;
 }
+
 .navigation {
   background: #478a05;
   padding: 16px;
@@ -43,4 +44,22 @@ nav a {
 .navigation__link--homepage {
   background: yellow;
   color: #000;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 5px solid #cccccc;
+  margin-bottom: 15px;
+}
+
+.week-summary--special {
+  border: 10px solid #92140c;
+}
+
+.week-summary__description {
+  color: #92140c;
+}
+
+.week-summary__title {
+  color: #21a179;
 }

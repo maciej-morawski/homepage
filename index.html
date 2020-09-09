@@ -10,18 +10,22 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna </a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
         <a class="navigation__link" href="nauka-html.html">Nauka HTML </a>
       </nav>
     </header>
 
     <main>
       <header id="top">
-        <h1>Maciej Mórawski - Strona domowa robiona w ramach WTF</h1>
+        <h1 class="main-heading main-heading--js" id="name">
+          Maciej Mórawski - Strona domowa robiona w ramach WTF
+        </h1>
       </header>
 
       <section>
-        <h2 class="special-header">Kim jestem?</h2>
+        <h2 class="secondary-heading">Kim jestem?</h2>
         <img src="kodzik.jpg" alt="Kod Javascript" />
         <p>
           Hej! Na co dzień zajmuję się sportem. Głównie treningi siłowe
@@ -29,15 +33,23 @@
           rowerze. W wolnych chwilach interesuję sie szeroką rozumiana branżą IT
           : komputery, <b>programowanie</b> , głównie warstwa frontend. Moim
           celem jest znajomość javascriptu. Biorę udział w szkoleniu
-          <a href="https://cotenfrontend.pl">WTF</a>
+          <a href="https://cotenfrontend.pl" target="_blank">WTF</a>
         </p>
-      </sectio n>
+      </section>
 
       <section id="notatki">
-        <h2 class="special-header">Notatki z WTF: Co ten frontend?</h2>
-        <article>
-          <h2>Jak stworzyć prawidłowego HTML-a ?</h2>
-          <p>
+        <h2 class="secondary-heading">Notatki z WTF: Co ten frontend?</h2>
+
+        <article class="week-summary">
+          <h3 class="week-summary__title">Odrabianie pracy domowej</h3>
+          <p class="week-summary__description">Poszło mi całkiem nieźle.</p>
+        </article>
+
+        <article class="week-summary week-summary--special">
+          <h3 class="week-summary__title">
+            Jak stworzyć prawidłowego HTML-a ?
+          </h3>
+          <p class="week-summary__description">
             Tworzenie zgodnego ze standardami HTML-a,
             <strong>to sztuka którą do perfekcji opanowało niewielu</strong
             >.Jeśli chcesz stać się częścią tej grupy, musisz wykazać się
@@ -46,9 +58,11 @@
           </p>
         </article>
 
-        <article>
-          <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-          <p>
+        <article class="week-summary">
+          <h3 class="week-summary__title">
+            Czy nagrywanie szkolenia to prosta sprawa?
+          </h3>
+          <p class="week-summary__description">
             Na początku myślałem, że całe szkolenie nagram w 2 tygodnie.W
             rzeczywistości samo planowanie zajęło więcej czasu. Na szczęście
             dzięki wsparciu bliskich i <em>dużej dawce motywacji</em> udało mi
