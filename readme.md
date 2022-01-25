@@ -1,4 +1,4 @@
-![cover](./assets/img/readmeimage.png)
+![cover](./gh/readmeimage.png)
 
 # WTF Webpack Starter Kit
 
