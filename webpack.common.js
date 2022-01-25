@@ -80,12 +80,7 @@ module.exports = {
       chunks: ["index"],
       filename: "index.html",
     }),
-    new HtmlWebpackPlugin({
-      template: "./src/pages/another.html",
-      inject: true,
-      chunks: ["index"],
-      filename: "another.html",
-    }),
+
     new HtmlWebpackPlugin({
       template: "./src/pages/nauka.html",
       inject: true,
