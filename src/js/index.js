@@ -1,4 +1,5 @@
 import "../scss/main.scss";
+import moment from "moment";
 
 // uncomment the lines below to enable PWA
 // import {registerSW} from './pwa.js';
@@ -81,3 +82,9 @@ const myClick = () => {
 };
 
 button.addEventListener("click", myClick);
+
+const startOfDay = moment().startOf("day").fromNow();
+
+const timePlaceHolder = document.querySelector(".time--js");
+
+timePlaceHolder.innerHTML = startOfDay;
